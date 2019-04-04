@@ -1,0 +1,47 @@
+Waf: Entering directory `/home/meesam/Desktop/ns-3-lbt/build'
+Waf: Leaving directory `/home/meesam/Desktop/ns-3-lbt/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (2.353s)
+Running simulation for 1 sec of data transfer; 5 sec overall
+Operator A: LAA; number of cells 1; number of UEs 3
+Operator B: Wi-Fi; number of cells 1; number of UEs 1
+Total txop duration: 0 seconds.
+Total phy arrivals duration: 0 seconds.
+--------monitorA----------
+Flow 1 (1.0.0.2:49153 -> 7.0.0.4:9) proto UDP
+  Tx Packets: 8078
+  Tx Bytes:   8304184
+  TxOffered:  66.4335 Mbps
+  Rx Bytes:   6265660
+  Throughput: 19.0616 Mbps
+  Mean delay:  877.743 ms
+  Mean jitter:  0.52484 ms
+  Rx Packets: 6095
+Flow 2 (1.0.0.2:49154 -> 7.0.0.2:9) proto UDP
+  Tx Packets: 5802
+  Tx Bytes:   5964456
+  TxOffered:  47.7156 Mbps
+  Rx Bytes:   4838796
+  Throughput: 16.2117 Mbps
+  Mean delay:  1022.71 ms
+  Mean jitter:  0.572684 ms
+  Rx Packets: 4707
+Flow 3 (1.0.0.2:49155 -> 7.0.0.3:9) proto UDP
+  Tx Packets: 891
+  Tx Bytes:   915948
+  TxOffered:  7.32758 Mbps
+  Rx Bytes:   915948
+  Throughput: 5.98673 Mbps
+  Mean delay:  909.052 ms
+  Mean jitter:  0.556947 ms
+  Rx Packets: 891
+--------monitorB----------
+Flow 1 (12.0.0.1:49153 -> 18.0.0.2:9) proto UDP
+  Tx Packets: 1450
+  Tx Bytes:   1490600
+  TxOffered:  11.9248 Mbps
+  Rx Bytes:   927256
+  Throughput: 41.4659 Mbps
+  Mean delay:  45.432 ms
+  Mean jitter:  0.232269 ms
+  Rx Packets: 902
